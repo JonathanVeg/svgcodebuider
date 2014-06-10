@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: development_svgs
+  host: localhost
+  pool: 5
+  username: postgres
+  password: respondeai
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: test_svgs
+  host: localhost
+  pool: 5
+  username: postgres
+  password: respondeai

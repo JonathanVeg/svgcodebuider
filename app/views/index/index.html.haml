@@ -1,0 +1,11 @@
+#entry
+	Escreva seu código SVG abaixo e veja o resultado em tempo real.
+	= form_tag do
+		= text_area_tag "code"
+
+#view
+	.svg_view
+		%svg{:height => "6", :width => "6"}
+			%path{:d => "M 0 6 L 3 0 L 6 6 L 0 6"}/
+
+#empty
